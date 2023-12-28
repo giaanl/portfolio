@@ -8,6 +8,11 @@ html {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    max-width: 100vw;
+}
+
  /* Nav bar */
 
 #navbar img{
@@ -19,11 +24,30 @@ html {
     text-decoration: none;
     color: #1c1e53;
     transition: color 0.3s ease;
+    position: relative;
+}
+
+#navbar a:after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #7737AB;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    transition: 0.5s;
+    opacity: 0%;
 }
 
 #navbar a:hover{
-    color: #5e3bee;
+    color: #7737AB;
 }
+
+#navbar a:hover:after{
+    width: 100%;
+    opacity: 100%;
+}
+
 
 #navbar nav{
     background-color: #fff;
@@ -47,18 +71,18 @@ html {
 }
 
 #navbar button{
-    color: #1c1e53;
+    color: #202233;
     background-color: transparent;
     padding: 12px 16px;
     border-radius: 5px;
-    border: 1px solid #1c1e53;
+    border: 1px solid #202233;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 #navbar button:hover{
-    background-color: #5e3bee;
-    border-color: #5e3bee;
+    background-color: #7737AB;
+    border-color: #7737AB;
     color: #fff;
 }
 
@@ -72,6 +96,59 @@ html {
 
 /* Main */
 
-h5{
+#main{
+    background-color: #ddf0ff;
+    padding: 90px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#main .left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#main h5{
     font-size: 20px;
+}
+
+#main .left h3{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+#main .left h3 span{
+    color: #7737AB;
+}
+
+#main .left p{
+    color: #202233;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+#main button{
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #7737AB;
+    padding: 14px 24px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#main button:hover{
+    background-color: #EFDBFF;
+    border-color: #202233;
+    color: #202233;
+}
+
+#main .right img{
+    width: 500px;
 }
