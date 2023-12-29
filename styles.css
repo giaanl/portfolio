@@ -152,3 +152,67 @@ body{
 #main .right img{
     width: 500px;
 }
+
+/* Skills */
+
+#skills{
+    padding: 100px 85px 0;
+    margin-bottom: 900px;
+}
+
+#skills h5{
+    font-size: 20px;
+}
+
+#skills h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#skills .skills-items{
+    display: flex;
+    margin-top: 70px;
+    gap: 30px
+}
+
+#skills .skills-items .item{
+    background-color: #ddf0ff;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#skills .skills-items .item:hover{
+    border-bottom: 4px solid #7737AB;
+}
+
+#skills .skills-items .item .icon{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+#skills .skills-items .item .icon i{
+    font-size: 26px;
+    color: #202233;
+}
+
+#skills .skills-items .item h4{
+    font-size: 18px;
+}
+
+#skills .skills-items .item p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 22px;
+    color: #202233;
+}
