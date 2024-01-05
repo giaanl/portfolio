@@ -411,6 +411,13 @@ body{
     font-size: 26px;
     color: #202233;
 }
+ 
+
+#contact #contact-item .item .info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
 
 #contact #contact-item .item .info h4{
     font-size: 18px;
