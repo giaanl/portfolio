@@ -24,7 +24,7 @@ body{
 
 #navbar ul a{
     text-decoration: none;
-    color: #1c1e53;
+    color: #081c15;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -33,7 +33,7 @@ body{
     content: "";
     height: 2px;
     width: 0%;
-    background-color: #7737AB;
+    background-color: #52b788;
     position: absolute;
     left: 0;
     top: 20px;
@@ -42,7 +42,7 @@ body{
 }
 
 #navbar a:hover{
-    color: #7737AB;
+    color: #52b788;
 }
 
 #navbar a:hover:after{
@@ -73,18 +73,18 @@ body{
 }
 
 #navbar .btn button{
-    color: #202233;
+    color: #081c15;
     background-color: transparent;
     padding: 12px 16px;
     border-radius: 5px;
-    border: 1px solid #202233;
+    border: 1px solid #081c15;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 #navbar .btn button:hover{
-    background-color: #7737AB;
-    border-color: #7737AB;
+    background-color: #52b788;
+    border-color: #52b788;
     color: #fff;
 }
 
@@ -103,7 +103,7 @@ body{
 /* Main */
 
 #main{
-    background-color: #ddf0ff;
+    background-color: #b7e4c7;
     padding: 90px 85px;
     display: flex;
     align-items: center;
@@ -128,11 +128,11 @@ body{
 }
 
 #main .left h3 span{
-    color: #7737AB;
+    color: #40916c;
 }
 
 #main .left p{
-    color: #202233;
+    color: #081c15;
     font-size: 22px;
     margin-top: 20px;
 }
@@ -141,7 +141,7 @@ body{
 #main button{
     margin-top: 1rem;
     color: #fff;
-    background-color: #7737AB;
+    background-color: #40916c;
     padding: 14px 24px;
     border-radius: 5px;
     border: 1px solid transparent;
@@ -150,38 +150,38 @@ body{
 }
 
 #main button:hover{
-    background-color: #EFDBFF;
-    border-color: #202233;
-    color: #202233;
+    background-color: #95d5b2;
+    border-color: #081c15;
+    color: #081c15;
 }
 
 #main .right img{
     width: 500px;
 }
 
-/* Skills */
+/* experience */
 
-#skills{
+#experience{
     padding: 100px 85px 0;
 }
 
-#skills h5{
+#experience h5{
     font-size: 20px;
 }
 
-#skills h3{
+#experience h3{
     font-size: 40px;
     margin-top: 20px;
 }
 
-#skills .skills-items{
+#experience .experience-items{
     display: flex;
     margin-top: 70px;
     gap: 30px
 }
 
-#skills .skills-items .item{
-    background-color: #ddf0ff;
+#experience .experience-items .item{
+    background-color: #b7e4c7;
     width: 25%;
     border-radius: 10px;
     padding: 32px;
@@ -190,11 +190,11 @@ body{
     transition: all 0.3s ease;
 }
 
-#skills .skills-items .item:hover{
+#experience .experience-items .item:hover{
     border-bottom: 4px solid #7737AB;
 }
 
-#skills .skills-items .item .icon{
+#experience .experience-items .item .icon{
     display: flex;
     background-color: #fff;
     justify-content: center;
@@ -206,16 +206,16 @@ body{
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
 }
 
-#skills .skills-items .item .icon i{
+#experience .experience-items .item .icon i{
     font-size: 26px;
     color: #202233;
 }
 
-#skills .skills-items .item h4{
+#experience .experience-items .item h4{
     font-size: 18px;
 }
 
-#skills .skills-items .item p{
+#experience .experience-items .item p{
     font-size: 14px;
     margin-top: 20px;
     line-height: 22px;
@@ -232,7 +232,7 @@ body{
 }
 
 #about .left{
-    background-color: #ddf0ff;
+    background-color: #b7e4c7;
     border-radius: 10px;
 }
 
@@ -258,7 +258,7 @@ body{
 /* Portfolio */
 
 #portfolio{
-    background-color: #ddf0ff;
+    background-color: #b7e4c7;
     padding: 110px 85px;
 }
 
@@ -279,7 +279,7 @@ body{
 }
 
 #portfolio .header button{
-    background-color: #ff0080;
+    background-color: #248277;
     padding: 10px 20px;
     color: #fff;
     display: flex;
@@ -330,9 +330,10 @@ body{
 }
 
 #portfolio #portfolio-item .item .info a{
+    color: #52b788;
     text-decoration: underline;
     text-underline-offset: 5px;
-    text-decoration-color: #7737AB;
+    text-decoration-color: #52b788;
     transition: all 0.3s ease;
 }
 
@@ -342,7 +343,7 @@ body{
 }
 
 #portfolio #portfolio-item .item:hover{
-    border-color: #7737AB;
+    border-color: #52b788;
 }
 
 /* Contact */ 
@@ -383,7 +384,7 @@ body{
 
 #contact #contact-item .item{
     width: 30%;
-    background-color: #ddf0ff;
+    background-color: #b7e4c7;
     border-radius: 10px;        
     border-bottom: 4px solid transparent;        
     cursor: pointer;
@@ -393,7 +394,7 @@ body{
 }
 
 #contact #contact-item .item:hover{
-    border-color: #7737AB;
+    border-color: #52b788;
 }
 #contact #contact-item .item .icon{
     display: flex;
@@ -431,9 +432,10 @@ body{
 }
 
 #contact #contact-item .item .info a{
+    color: #52b788;
     text-decoration: underline;
     text-underline-offset: 5px;
-    text-decoration-color: #7737AB;
+    text-decoration-color: #52b788;
     transition: all 0.3s ease;
     
 }
@@ -458,7 +460,7 @@ footer .top li{
 }
 
 footer{
-    background-color: #202233;
+    background-color: #081c15;
     padding: 85px;
     display: flex;
     flex-direction: column;
@@ -508,4 +510,72 @@ footer .bottom p{
 
 footer .bottom p a{
     color: #fff;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+    #main .left h5{
+        font-size: 18px
+    }
+    #main .left h3{
+        font-size: 36px
+    }
+
+    #main .left p{
+        font-size: 18px
+    }
+
+    #main .right img{
+        width: 380px;
+    }
+
+    #experience .experience-items{
+        gap: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #experience .experience-items .item{
+        width: 49%;
+    }
+
+    #about .left img{
+        width: 360px;
+    }
+
+    #experience h3, #about .right h3, #portfolio .header h3{
+        font-size: 32px;
+    }
+
+    #about .right p{
+        font-size: 15px;
+    }
+
+    footer .top ul{
+        gap: 20px;
+    }
+}
+
+@media screen  and (max-width: 992px){
+    #navbar .btn button{
+        display: none;
+    }
+
+    #navbar ul{
+        gap: 20px
+    }
+
+    #navbar ul li a{
+        font-size: 15px;
+    }
+
+    #main{
+        flex-direction: column-reverse;
+    }
+
+    #about{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
