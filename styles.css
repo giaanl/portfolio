@@ -67,6 +67,10 @@ body{
     list-style: none;
 }
 
+#navbar #switch .icon{
+    cursor: pointer;
+}
+
 #navbar ul{
     display: flex;
     gap: 40px
@@ -191,7 +195,7 @@ body{
 }
 
 #experience .experience-items .item:hover{
-    border-bottom: 4px solid #7737AB;
+    border-bottom: 4px solid #52b788;
 }
 
 #experience .experience-items .item .icon{
