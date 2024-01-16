@@ -548,7 +548,7 @@ footer .bottom p a{
         width: 360px;
     }
 
-    #experience h3, #about .right h3, #portfolio .header h3{
+    #experience h3, #about .right h3, #portfolio .header h3, #contact h3{
         font-size: 32px;
     }
 
@@ -582,4 +582,85 @@ footer .bottom p a{
         flex-direction: column;
         justify-content: center;
     }
+
+    #portfolio #portfolio-item{
+        gap: 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #portfolio #portfolio-item .item{
+        width: 48%;
+
+    }
+
+    #contact #contact-item{
+        gap: 7px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #contact #contact-item .item{
+        width: 48%;
+    }
+
+    footeer .top ul{
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 768px){
+    #navbar nav{
+        justify-content: space-between;
+        padding: 0 42px;
+    }
+
+    #navbar nav ul{
+        display: none;
+    }
+
+    #navbar .btn button#menuButton{
+        display: flex;
+    }
+
+    #main{
+        padding: 42px;
+    }
+
+    #experience{
+        padding: 85px 42px 0;
+    }
+
+    #experience .experience-items{
+        gap: 8px;
+    }
+
+    #about{
+        padding: 85px 42px;
+    }
+
+    #portfolio{
+        padding: 60px 42px;
+    }
+
+    #portfolio #portfolio-item{
+        gap: 18px;
+    }
+
+    #portfolio #portfolio-item .item .info{
+        display: none;
+    }
+
+    #contact{
+        padding: 60px 42px;
+    }
+
+    footer{
+        padding: 85px 42px;
+    }
+
+    footer .bottom{
+        gap: 14px
+    }
+    
 }
